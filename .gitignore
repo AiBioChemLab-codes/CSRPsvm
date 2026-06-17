@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+predictions.csv
+*.log
+
+# Local Hugging Face model cache. Keep large downloaded ESM2 files out of git.
+utils/ESM2/
